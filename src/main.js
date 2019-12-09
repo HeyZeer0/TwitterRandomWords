@@ -17,7 +17,7 @@ var alreadySent = false
 function shouldSend() {
     var date = new Date()
 
-    const should = date.getMinutes() == 0 || date.getMinutes == 30
+    const should = date.getMinutes() == 0 || date.getMinutes() == 30
     if(!should && alreadySent) alreadySent = false
 
     return (should && !alreadySent)
