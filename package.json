@@ -1,0 +1,15 @@
+{
+  "name": "quemleubot",
+  "version": "1.0.0",
+  "description": "A simple Twitter Bot that send random words",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HeyZeer0",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "twit": "^2.2.11"
+  }
+}
